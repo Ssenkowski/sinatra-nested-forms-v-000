@@ -21,7 +21,7 @@ module FormsLab
         Ship.new(details)
       end
       binding.pry
-      # @ships = Ship.all
+      @@ships = Ship.all
       #
       erb :'pirates/show'
     end
