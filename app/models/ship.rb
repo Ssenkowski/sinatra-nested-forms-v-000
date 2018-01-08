@@ -4,7 +4,7 @@ class Ship
   @@ships = []
 
   def initialize(args)
-    @name, @type, @height = args[:name], args[:type], args[:booty]
+    @name, @type, @booty = args[:name], args[:type], args[:booty]
     @@ships << self
   end
 
